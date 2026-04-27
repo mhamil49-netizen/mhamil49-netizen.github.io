@@ -1,0 +1,96 @@
+/* Nav bar */
+.topnav {
+  background-color: #fff0f1;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ffa3d6;
+  color: white;
+}
+
+/* Image with button*/
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: ffffff;
+}
+
+/* Quote */
+.container {
+  border: 0 solid #ffa3d6;
+  background-color: #fff0f1;
+  border-radius: 0px;
+  padding: 2px;
+  margin: 0;
+}
+
+.container::after {
+  content:none;
+  clear: both;
+  display: table;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    text-align: center;
+  }
+
+  .container img {
+    margin: auto;
+    float: none;
+    display: flex;
+  }
+}
+
+
+/* Article */
+.column {
+  float:left;
+  width: 50%;
+  padding: 20;
+}
+
