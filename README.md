@@ -1,2 +1,2 @@
 # mhamil49-netizen.github.io
-Research supporting Thesis on College Athletes 
+This repository contains files for CIS300 Project Assignments
